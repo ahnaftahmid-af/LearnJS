@@ -7,7 +7,7 @@ console.log (
     3
 )// code readabality should be high
 
-console.log ("Hello world")
+console.log("Hello world")
 
 // Datatypes
 // number  => 123
@@ -19,9 +19,9 @@ console.log ("Hello world")
 // symbol  => unique korar jonno use kora hoi, react a besi use hoi
 // objet   
 
-console.log (typeof undefined) // output => Undefined
-console.log (typeof null) // output => Object
-console.log (typeof "Hello JS") // output => Hello JS 
-                                           //String
+console.log(typeof undefined) // output => Undefined
+console.log(typeof null) // output => Object
+console.log(typeof "Hello JS") // output => Hello JS 
+                                          //String
 
 // 'typeof' diye valuer datatype check kora hoi.
