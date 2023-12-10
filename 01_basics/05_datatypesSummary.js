@@ -58,7 +58,7 @@ const myFunc = function () {
 };
 console.log(myFunc);
 
-//Type of val	Result
+//Type of val	Result (https://262.ecma-international.org/5.1/#sec-11.4.3)
 // Undefined	| "undefined"
 // Null	      | "object"
 // Boolean	  | "boolean"
