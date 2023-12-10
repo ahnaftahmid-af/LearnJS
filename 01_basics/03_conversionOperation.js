@@ -43,58 +43,56 @@ let valueInBoolean = Boolean(mainNumber)
 
 let numtest = "9911abc"
 let convertNumber = Number(numtest)
-// console.log(typeof convertNumber) //output => number
-// console.log(convertNumber) //output => NaN
+// console.log(typeof convertNumber) // Expected output: number
+// console.log(convertNumber) // Expected output: NaN
 
 
 let nullCheck = null
 let convertNumberNull = Number(nullCheck)
-// console.log(typeof convertNumberNull) //output => number
-// console.log(convertNumberNull) //output => NaN
+// console.log(typeof convertNumberNull) // Expected output: number
+// console.log(convertNumberNull) // Expected output: NaN
 
 
 let undefinedCheck = undefined
 let convertNumberUndefined = Number(undefinedCheck)
-// console.log(typeof convertNumberUndefined) //output => NaN
-console.log(convertNumberUndefined) //output => NaN
+// console.log(typeof convertNumberUndefined) // Expected output: NaN
+console.log(convertNumberUndefined) // Expected output: NaN
 
 
 //Operation
 
-console.log(5 + 5)  //=> 10
-console.log(5 - 5)  //=> 0
-console.log(5 * 5)  //=> 25
-console.log(5 ** 5) //=> 3125
-console.log(5 / 5)  //=> 1
-console.log(5 % 5)  //=> 0
+console.log(5 + 5)  // Expected output: 10
+console.log(5 - 5)  // Expected output: 0
+console.log(5 * 5)  // Expected output: 25
+console.log(5 ** 5) // Expected output: 3125
+console.log(5 / 5)  // Expected output: 1
+console.log(5 % 5)  // Expected output: 0
 
 
 let num1 = 20
 let num2 = 50
 let totalNumber = num1 + num2 
-console.log(totalNumber);   //=> 70
+console.log(totalNumber);   // Expected output: 70
 
 
 // Increment
 
 let gameCounter = 100 
 gameCounter++; // Postfix increment
-console.log(gameCounter);   //=> 101
+console.log(gameCounter);   // Expected output: 101
 
 let A = 200
 ++A; // Prefix increment
-console.log(A)  //=> 201
+console.log(A);  // Expected output: 201
 
 
 // Decrement
 
 let student_number = 33
-
 --student_number; // Prefix decrement
-
-console.log(student_number);    //=> 32
+console.log(student_number);    // Expected output: 32
 
 
 let results = 80
 results--; // Postfix decrement
-console.log(results); //=> 79
+console.log(results); // Expected output: 79
