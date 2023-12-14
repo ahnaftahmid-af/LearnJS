@@ -15,6 +15,19 @@ const repoCount = 17;
 const gameName = new String("Tahmid");
 console.log(gameName);
 
-console.log(gameName.length); // Length - This property returns the number of code units in the string. 
+// length - This property returns the number of code units in the string.
+console.log(gameName.length);
 
-console.log(gameName.at)
+// at() method
+const bookText =
+  "The at() method of String values takes an integer value and returns a new String consisting of the single UTF-16 code unit located at the specified offset.";
+
+let index = 10; // Positive value
+console.log(
+  `An index of '${index}' returns the character '${bookText.at(index)}'`
+);
+
+let index2 = -5; // Negative value
+console.log(
+  `An index2 of '${index2}' returns the character '${bookText.at(index2)}'`
+);
