@@ -31,3 +31,37 @@ let index2 = -5; // Negative value
 console.log(
   `An index2 of '${index2}' returns the character '${bookText.at(index2)}'`
 );
+
+// charAt() method
+const demoText =
+  "Characters in a string are indexed from left to right. The index of the first character is 0, and the index of the last character in a string called str is str.length - 1.";
+
+console.log(`The character at index 7 is '${demoText.charAt(7)}'`);
+
+// concat() method
+const str1 = "Hello";
+const str2 = "World";
+
+console.log(str1.concat(" ", str2));
+// Expected output: "Hello World"
+
+console.log(str2.concat(", ", str1));
+// Expected output: "World, Hello"
+
+// toString() method
+const stringObj = new String("foo");
+
+console.log(stringObj);
+// Expected output: String { "foo" }
+
+console.log(stringObj.toString());
+// Expected output: "foo"
+
+// toLocaleUpperCase() method
+const city = 'istanbul';
+
+console.log(city.toLocaleUpperCase('en-US'));
+// Expected output: "ISTANBUL"
+
+console.log(city.toLocaleUpperCase('TR'));
+// Expected output: "İSTANBUL"
