@@ -1,87 +1,87 @@
-// const myName = "Ahnaf Tahmid";
-// const repoCount = 17;
+const myName = "Ahnaf Tahmid";
+const repoCount = 17;
 
-// // Don't Recommend
-// // console.log(
-// //   "Hello this is my name " + myName + " and this is my github repo " + repoCount
-// // ); // It's an old version to declare the string.
-
-// // Recommend
-// // console.log(
-// //   `Hello this is my name ${myName} and this is my github repo ${repoCount}`
-// // ); // This is a modern way to declare the string. and it's called - "String Interpolation"
-
-// // How to write a right String declare method // String is Object
-// const gameName = new String("Tahmid");
-// console.log(gameName);
-
-// // length - This property returns the number of code units in the string.
-// console.log(gameName.length);
-
-// // at() method
-// const bookText =
-//   "The at() method of String values takes an integer value and returns a new String consisting of the single UTF-16 code unit located at the specified offset.";
-
-// let index = 10; // Positive value
+// Don't Recommend
 // console.log(
-//   `An index of '${index}' returns the character '${bookText.at(index)}'`
-// );
+//   "Hello this is my name " + myName + " and this is my github repo " + repoCount
+// ); // It's an old version to declare the string.
 
-// let index2 = -5; // Negative value
-// console.log(
-//   `An index2 of '${index2}' returns the character '${bookText.at(index2)}'`
-// );
+// Recommend
+console.log(
+  `Hello this is my name ${myName} and this is my github repo ${repoCount}`
+); // This is a modern way to declare the string. and it's called - "String Interpolation"
 
-// // charAt() method
-// const demoText =
-//   "Characters in a string are indexed from left to right. The index of the first character is 0, and the index of the last character in a string called str is str.length - 1.";
+// How to write a right String declare method // String is Object
+const gameName = new String("Tahmid");
+console.log(gameName);
 
-// console.log(`The character at index 7 is '${demoText.charAt(7)}'`);
+// length - This property returns the number of code units in the string.
+console.log(gameName.length);
 
-// // concat() method
-// const str1 = "Hello";
-// const str2 = "World";
+// at() method //////////////////////////////////////////////////
+const bookText =
+  "The at() method of String values takes an integer value and returns a new String consisting of the single UTF-16 code unit located at the specified offset.";
 
-// console.log(str1.concat(" ", str2));
-// // Expected output: "Hello World"
+let index = 10; // Positive value
+console.log(
+  `An index of '${index}' returns the character '${bookText.at(index)}'`
+);
 
-// console.log(str2.concat(", ", str1));
-// // Expected output: "World, Hello"
+let index2 = -5; // Negative value
+console.log(
+  `An index2 of '${index2}' returns the character '${bookText.at(index2)}'`
+);
 
-// // toString() method
-// const stringObj = new String("foo");
+// charAt() method //////////////////////////////////////////////////
+const demoText =
+  "Characters in a string are indexed from left to right. The index of the first character is 0, and the index of the last character in a string called str is str.length - 1.";
 
-// console.log(stringObj);
-// // Expected output: String { "foo" }
+console.log(`The character at index 7 is '${demoText.charAt(7)}'`);
 
-// console.log(stringObj.toString());
-// // Expected output: "foo"
+// concat() method //////////////////////////////////////////////////
+const str1 = "Hello";
+const str2 = "World";
 
-// // toLocaleUpperCase() method
-// const city = "istanbul";
+console.log(str1.concat(" ", str2));
+// Expected output: "Hello World"
 
-// console.log(city.toLocaleUpperCase("en-US"));
-// // Expected output: "ISTANBUL"
+console.log(str2.concat(", ", str1));
+// Expected output: "World, Hello"
 
-// console.log(city.toLocaleUpperCase("TR"));
-// // Expected output: "İSTANBUL"
+// toString() method //////////////////////////////////////////////////
+const stringObj = new String("foo");
 
-// // Split() method
-// const str = "The quick brown fox jumps over the lazy dog.";
+console.log(stringObj);
+// Expected output: String { "foo" }
 
-// const words = str.split(" ");
-// console.log(words[3]);
-// // Expected output: "fox"
+console.log(stringObj.toString());
+// Expected output: "foo"
 
-// const chars = str.split("");
-// console.log(chars[8]);
-// // Expected output: "k"
+// toLocaleUpperCase() method //////////////////////////////////////////////////
+const city = "istanbul";
 
-// const strCopy = str.split();
-// console.log(strCopy);
-// // Expected output: Array ["The quick brown fox jumps over the lazy dog."]
+console.log(city.toLocaleUpperCase("en-US"));
+// Expected output: "ISTANBUL"
 
-// PadStart() method
+console.log(city.toLocaleUpperCase("TR"));
+// Expected output: "İSTANBUL"
+
+// Split() method //////////////////////////////////////////////////
+const str = "The quick brown fox jumps over the lazy dog.";
+
+const words = str.split(" ");
+console.log(words[3]);
+// Expected output: "fox"
+
+const chars = str.split("");
+console.log(chars[8]);
+// Expected output: "k"
+
+const strCopy = str.split();
+console.log(strCopy);
+// Expected output: Array ["The quick brown fox jumps over the lazy dog."]
+
+// PadStart() method //////////////////////////////////////////////////
 const password_Number = "2423543634853";
 const sliceLast4_Number = password_Number.slice(-4);
 const hidden_PassNumber = sliceLast4_Number.padStart(
